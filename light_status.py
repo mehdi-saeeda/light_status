@@ -25,3 +25,6 @@ for j in range(n):
     light_status.append(status)
 changes = count_light_changes(light_status)
 print("Number of changes:", changes)
+except ValueError:
+print("Invalid input. Please enter integers only")
+
