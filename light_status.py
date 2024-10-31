@@ -23,3 +23,5 @@ for j in range(n):
         print("Please enter 0 or 1.")
         continue  # Skip to the next iteration of the loop
     light_status.append(status)
+changes = count_light_changes(light_status)
+print("Number of changes:", changes)
