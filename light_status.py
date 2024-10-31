@@ -14,3 +14,12 @@ def main():
             if n <= 0:
                 print("Please enter a positive integer.")
                 continue  # Prompt for input again
+
+
+light_status = []
+for j in range(n):
+    status = int(input("Enter the light status (0 or 1): "))
+    if status not in [0, 1]:
+        print("Please enter 0 or 1.")
+        continue  # Skip to the next iteration of the loop
+    light_status.append(status)
